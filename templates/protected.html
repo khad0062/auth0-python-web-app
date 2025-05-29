@@ -1,0 +1,15 @@
+<!-- templates/protected.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Protected Page</title>
+</head>
+<body>
+  <h1>Protected Page</h1>
+  <p>This page is only visible to authenticated users.</p>
+  <h3>User Info:</h3>
+  <pre>{{ pretty }}</pre>
+  <a href="{{ url_for('logout') }}">Logout</a> |
+  <a href="{{ url_for('home') }}">Home</a>
+</body>
+</html>
