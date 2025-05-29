@@ -55,6 +55,7 @@ AUTH0_CLIENT_ID=your_client_id
 AUTH0_CLIENT_SECRET=your_client_secret
 APP_SECRET_KEY=your_random_secret_key
 ```
+- Generate a suitable string for APP_SECRET_KEY using openssl rand -hex 32 from your shell.
 #### Create a server.py
 ```python
 import json
