@@ -31,7 +31,8 @@ This Flask application demonstrates secure authentication using Auth0. Users can
 ### 3. Project Setup
 
 # Clone repository
-git clone https://github.com/khad0062/auth0-python-web-app.git
+```git clone https://github.com/khad0062/auth0-python-web-app.git
+```
 cd autho-python-web-app
 
 # Create virtual environment (Windows)
@@ -62,7 +63,7 @@ Visit http://localhost:5000 in your browser
 - Unauthenticated users are automatically redirected to login.
 - Implemented with route decorator:
 
-python
+```python
 def requires_auth(f):
     @wraps(f)
     def decorated(*args, **kwargs):
@@ -75,3 +76,4 @@ def requires_auth(f):
 @requires_auth
 def protected():
     return render_template('protected.html')
+```
