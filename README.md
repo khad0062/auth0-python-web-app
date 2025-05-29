@@ -51,17 +51,16 @@ APP_SECRET_KEY=your_random_secret_key
 ```
 
 ### 5. Run the Application
-bash
-python3 server.py 
+```
+python3 server.py
+``` 
 Visit http://localhost:5000 in your browser
 
 
 ## Protected Route
-Access /protected after login to view restricted content.
-
-Unauthenticated users are automatically redirected to login.
-
-Implemented with route decorator:
+- Access /protected after login to view restricted content.
+- Unauthenticated users are automatically redirected to login.
+- Implemented with route decorator:
 
 python
 def requires_auth(f):
