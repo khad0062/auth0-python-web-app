@@ -43,12 +43,12 @@ pip install -r requirements.txt
 
 ### 4. Environment Variables
 Create .env file in project root:
-
-
+```
 AUTH0_DOMAIN=your-domain.us.auth0.com
 AUTH0_CLIENT_ID=your_client_id
 AUTH0_CLIENT_SECRET=your_client_secret
 APP_SECRET_KEY=your_random_secret_key
+```
 
 ### 5. Run the Application
 bash
