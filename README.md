@@ -8,7 +8,8 @@ This Flask application demonstrates secure authentication using Auth0. Users can
 - Login/logout functionality
 - Protected route (`/protected`) for authenticated users only
 - Session management
-
+## Video Demo
+[Youtube Video Link](https://youtu.be/axWUhMIp6v0)
 ## Setup Instructions
 
 ### 1. Prerequisites
