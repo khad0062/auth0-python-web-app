@@ -26,9 +26,10 @@ This Flask application demonstrates secure authentication using Auth0. Users can
    - Domain 
    - Client ID
    - Client Secret
+     Copy them to .env file
 
 ### 3. Project Setup
-```bash
+
 # Clone repository
 git clone https://github.com/khad0062/auth0-python-web-app.git
 cd autho-python-web-app
