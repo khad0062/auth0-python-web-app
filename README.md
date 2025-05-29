@@ -30,17 +30,22 @@ This Flask application demonstrates secure authentication using Auth0. Users can
 
 ### 3. Project Setup
 
-# Clone repository
-```git clone https://github.com/khad0062/auth0-python-web-app.git
+#### Clone repository
+```
+git clone https://github.com/khad0062/auth0-python-web-app.git
 ```
 cd autho-python-web-app
 
-# Create virtual environment (Windows)
+#### Create virtual environment (Windows)
+```
 python -m venv venv
 venv\Scripts\activate
+```
 
 # Install dependencies
+```
 pip install -r requirements.txt
+```
 
 ### 4. Environment Variables
 Create .env file in project root:
